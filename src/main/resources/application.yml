@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: local
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/backend
+    username: sa
+    password: 
+    driver-class-name: org.h2.Driver
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+#      show_sql: true  // 줄맞춤 맞춰야 실행 됨
+       format_sql: true
+       use_sql_comments : true
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+#    org.hibernate.type: trace    
+
