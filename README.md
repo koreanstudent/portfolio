@@ -1,5 +1,4 @@
-# JPA + REACT를 이용한 포트폴리오 및 웹 사이트
+# springboot + REACT 연동하기.
 
-<a href="https://github.com/koreanstudent/portfolio">JPA</a>
+axios를 이용하여 연동을 하였습니다.
 
-<a href="https://github.com/koreanstudent/portfolio/tree/master/frontend">REACT</a>
